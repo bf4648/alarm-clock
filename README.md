@@ -31,7 +31,7 @@ crontab -e
 ## Run setup.sh
 
 * This will create a symlink from the kill_alarm.sh script and place it on your Desktop. 
-* You will need to run this script after waking up to kill the alarm.
+* You will need to run this script to kill the alarm.
 * Follow the instructions on the following site: [clickable-shell-scripts-on-mac](http://stackoverflow.com/questions/5125907/how-to-run-a-shell-script-in-os-x-by-double-clicking) to make sure the your Mac environment is correctly set up in order to simply double click on the script to kill the alarm.
 
 

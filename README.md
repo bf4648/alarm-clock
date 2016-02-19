@@ -14,11 +14,8 @@ crontab -e
 45 6 * * 1,2,3,4,5 /Users/username/git/alarm_clock-master/scripts/alarm.sh
 ```
 
-## Setup your environment 
+## Set up crontab user with sudo rights
 
-* Follow the instructions on the following site: [clickable-shell-scripts-on-mac](http://stackoverflow.com/questions/5125907/how-to-run-a-shell-script-in-os-x-by-double-clicking) to make sure the your Mac environment is correctly set up
-
-### Cronjob user will need to use sudo w/ out password
 * In order to turn the volume up, the crontab user will need to have sudo rights, to make sure of this follow the instructions found @ [how-to-become-sudo](https://www.garron.me/en/linux/visudo-command-sudoers-file-sudo-default-editor.html)
 
 * Here is a summery of the process: 
@@ -35,6 +32,8 @@ crontab -e
 
 * This will create a symlink from the kill_alarm.sh script and place it on your Desktop. 
 * You will need to run this script after waking up to kill the alarm.
+* Follow the instructions on the following site: [clickable-shell-scripts-on-mac](http://stackoverflow.com/questions/5125907/how-to-run-a-shell-script-in-os-x-by-double-clicking) to make sure the your Mac environment is correctly set up in order to simply double click on the script to run it
+
 
 ## Set up your alarm-playlist.txt
 

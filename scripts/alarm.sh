@@ -3,7 +3,8 @@
 
 GIT_DIR=$HOME/git
 ALARM_CLOCK_REPO="$GIT_DIR"/alarm-clock
-ALARM_LIST="$ALARM_CLOCK_REPO"/alarm-playlist.txt
+ALARM_CLOCK_SOUNDS="$ALARM_CLOCK_REPO"/sounds
+ALARM_LIST="$ALARM_CLOCK_SOUNDS"/alarm-playlist.txt
 
 function set_volume_to_max() {
 

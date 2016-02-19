@@ -15,7 +15,7 @@
 ### Cronjob user will need to use sudo w/ out password
 * In order to turn the volume up, the crontab user will need to have sudo rights, to make sure of this follow the instructions found @ [how-to-become-sudo](https://www.garron.me/en/linux/visudo-command-sudoers-file-sudo-default-editor.html)
 
-* Here is a synopsis of the process: 
+* Here is a summery of the process: 
 ```
 Switch to root, (su root), then run visudo, (as above).
 Find where it says "root ALL=(ALL) ALL".

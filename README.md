@@ -28,7 +28,7 @@ crontab -e
 6. Type ":x" to save and exit.
 ```
 
-## Run setup.sh in the project root 
+## Run setup.sh
 
 * This will create a symlink from the kill_alarm.sh script and place it on your Desktop. 
 * You will need to run this script after waking up to kill the alarm.

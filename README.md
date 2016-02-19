@@ -1,8 +1,14 @@
 # Steps to getting started
 
-## Set up your Cronjob 
+## Set up your cronjob 
 
-### Example crontab entry @ 6:45 A.M. M-F created using [corn-tab](http://www.corntab.com/pages/crontab-gui)
+* To edit your cronjob entry in the following command @ your terminal: 
+
+```
+crontab -e
+```
+
+* Here is an example crontab entry @ 6:45 A.M. M-F created using [corn-tab](http://www.corntab.com/pages/crontab-gui)
 
 ```
 45 6 * * 1,2,3,4,5 /Users/username/git/alarm_clock-master/scripts/alarm.sh
@@ -27,7 +33,7 @@ Type ":x" to save and exit.
 
 ## Run setup.sh in the project root 
 
-* This will put a symlink to the kill_alarm.sh script on your Desktop. 
+* This will create a symlink from the kill_alarm.sh script and place it on your Desktop. 
 * You will need to run this script after waking up to kill the alarm.
 
 ## Set up your alarm-playlist.txt

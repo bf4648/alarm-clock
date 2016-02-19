@@ -1,4 +1,4 @@
-# Steps to getting started with the Alarm Clock Project
+# Steps to getting started
 
 ## Set up your Cronjob 
 

@@ -9,15 +9,14 @@
 ## Total Possible Sounds so far
 
 ```
-    computer.mp3
-    cosmic.mp3
-    cow.mp3
-    digital.mp3
-    farm.mp3
-    forest.mp3
-    ocean.mp3
-    ringer.mp3
-    rooster.mp3
+computer.mp3
+cosmic.mp3
+cow.mp3
+digital.mp3
+farm.mp3
+forest.mp3
+ocean.mp3
+ringer.mp3
+rooster.mp3
 ```
-## Once the cronjob fires you will need a script to kill it, just follow the instructions on the following site: [clickable-scripts](http://stackoverflow.com/questions/5125907/how-to-run-a-shell-script-in-os-x-by-double-clicking)
-
+## Once the cronjob fires you will need a script to kill it, just follow the instructions on the following site: [clickable-scripts](http://stackoverflow.com/questions/5125907/how-to-run-a-shell-script-in-os-x-by-double-clicking) to make sure the kill_alarm.sh script is set up correctly or just run the setup.sh script

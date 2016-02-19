@@ -23,12 +23,12 @@ crontab -e
 
 * Here is a summery of the process: 
 ```
-Switch to root, (su root), then run visudo, (as above).
-Find where it says "root ALL=(ALL) ALL".
-Type "o" to insert a new line below it.
-Now type what you want to insert, eg "username ALL=(ALL) ALL".
-Hit esc to exit insert-mode.
-Type ":x" to save and exit.
+1. Switch to root, (su root), then run visudo, (as above).
+2  Find where it says "root ALL=(ALL) ALL".
+3. Type "o" to insert a new line below it.
+4. Now type what you want to insert, eg "username ALL=(ALL) ALL".
+5. Hit esc to exit insert-mode.
+6. Type ":x" to save and exit.
 ```
 
 ## Run setup.sh in the project root 

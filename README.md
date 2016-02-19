@@ -2,7 +2,7 @@
 
 ## Set up your cronjob 
 
-* To edit your cronjob entry in the following command @ your terminal: 
+* To edit your cronjob, enter in the following command @ your terminal: 
 
 ```
 crontab -e

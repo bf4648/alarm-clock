@@ -18,7 +18,7 @@ crontab -e
 
 * In order to turn the volume up, the crontab user will need to have sudo rights, to make sure of this follow the instructions found @ [how-to-become-sudo](https://www.garron.me/en/linux/visudo-command-sudoers-file-sudo-default-editor.html)
 
-* Here is a summery of the process: 
+* Here is a summery of the process(visudo doc is tab delimited): 
 ```
 1. Switch to root, (su root), then run visudo, (as above).
 2  Find where it says "root ALL=(ALL) ALL".
@@ -26,6 +26,14 @@ crontab -e
 4. Now type what you want to insert, eg "username ALL=(ALL) ALL".
 5. Hit esc to exit insert-mode.
 6. Type ":x" to save and exit.
+```
+
+* You will also need to add youself to the document to make sure that you are not prompted w/ a p/w
+** Remember sudo visudo is tab delmited)
+
+```
+1.  run sudo visudo 
+2.  Enter your username like so: username    ALL=(root) NOPASSWD: ALL
 ```
 
 ## Run setup.sh

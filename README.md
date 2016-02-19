@@ -11,7 +11,7 @@ crontab -e
 * Here is an example crontab entry @ 6:45 A.M. M-F created using [corn-tab](http://www.corntab.com/pages/crontab-gui)
 
 ```
-45 6 * * 1,2,3,4,5 /Users/username/git/alarm_clock-master/scripts/alarm.sh
+45 6 * * 1,2,3,4,5 /Users/username/git/alarm-clock/scripts/alarm.sh
 ```
 
 ## Set up crontab user with sudo rights

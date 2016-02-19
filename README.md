@@ -32,8 +32,8 @@ Type ":x" to save and exit.
 
 ## Set up your alarm-playlist.txt
 
-### You can add the following sounds (mp3s found in the sound folder) to your alarm-playlist.txt
-#### Feel free to add your own mp3s to the sound folder and then add them to the alarm-playlist.txt file
+* You can add the following sounds (mp3s found in the sound folder) to your alarm-playlist.txt
+* Feel free to add your own mp3s to the sound folder and then add them to the alarm-playlist.txt file
 
 ```
 computer.mp3

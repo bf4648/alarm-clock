@@ -1,3 +1,3 @@
-./computer.mp3
-./rooster.mp3
-./cow.mp3
+./sounds/computer.mp3
+./sounds/rooster.mp3
+./sounds/cow.mp3

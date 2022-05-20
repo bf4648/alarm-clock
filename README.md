@@ -1,8 +1,6 @@
-# Steps to getting started
-
 ![alarm-clock](pngs/alarm-clock.png)
 
-Lightweight version:
+# Lightweight version
 
 ```shell
 touch create-trigger.sh
@@ -33,7 +31,7 @@ Usage:
 ./create-trigger 45m
 ```
 
-## Set up your cronjob 
+# Set up your cronjob
 
 * To edit your cronjob, enter in the following command @ your terminal: 
 
@@ -47,7 +45,7 @@ crontab -e
 45 6 * * 1,2,3,4,5 /Users/username/git/alarm-clock/scripts/alarm.sh
 ```
 
-## Set up crontab user with sudo rights
+# Set up crontab user with sudo rights
 
 * In order to turn the volume up, the crontab user will need to have sudo rights, to make sure of this follow the instructions found @ [how-to-become-sudo](https://www.garron.me/en/linux/visudo-command-sudoers-file-sudo-default-editor.html)
 
@@ -69,14 +67,14 @@ crontab -e
 2.  Enter your username like so: username    ALL=(root) NOPASSWD: ALL
 ```
 
-## Run setup.sh
+# Run setup.sh
 
 * This will create a symlink from the kill_alarm.sh script and place it on your Desktop. 
 * You will need to run this script to kill the alarm.
 * Follow the instructions on the following site: [clickable-shell-scripts-on-mac](http://stackoverflow.com/questions/5125907/how-to-run-a-shell-script-in-os-x-by-double-clicking) to make sure the your Mac environment is correctly set up in order to simply double click on the script to kill the alarm.
 
 
-## Set up your alarm-playlist.txt
+# Set up your alarm-playlist.txt
 
 * You can add the following sounds (mp3s found in the sound folder) to your alarm-playlist.txt
 * Feel free to add your own mp3s to the sound folder and then add them to the alarm-playlist.txt file

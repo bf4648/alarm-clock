@@ -1,5 +1,7 @@
 # Steps to getting started
 
+![alarm-clock](pngs/alarm-clock.png)
+
 Lightweight version: 
 
 ```shell

@@ -1,5 +1,24 @@
 # Steps to getting started
 
+Lightweight version: 
+
+```shell
+#!/usr/bin/env bash
+
+# requires: `brew install coreutils sox`
+# glseep can be passed seconds, minutes, hours: 10s, 10m, 10h
+
+main() {
+    echo "start timer"
+    local amount="$1"
+    /usr/local/bin/gsleep "$amount"; and play ./sounds/rooster.mp3
+    echo "stop"
+}
+
+main "$1"
+
+```
+
 ## Set up your cronjob 
 
 * To edit your cronjob, enter in the following command @ your terminal: 

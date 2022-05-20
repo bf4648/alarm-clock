@@ -2,7 +2,13 @@
 
 ![alarm-clock](pngs/alarm-clock.png)
 
-Lightweight version: 
+Lightweight version:
+
+```shell
+touch create-trigger.sh
+```
+
+And place the following shell info in the file:
 
 ```shell
 #!/usr/bin/env bash
@@ -19,6 +25,12 @@ main() {
 
 main "$1"
 
+```
+
+Usage:
+
+```shell
+./create-trigger 45m
 ```
 
 ## Set up your cronjob 
